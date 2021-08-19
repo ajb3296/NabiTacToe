@@ -1,0 +1,126 @@
+@font-face {
+    src : url("../fonts/Montserrat/Montserrat-SemiBold.ttf"); 
+    font-family: Montserrat
+}
+
+@font-face {
+    src : url("../fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf"); 
+    font-family: Julius_Sans_One
+}
+
+html, body {
+    width : 100%;
+    height : 100%;
+    margin : 0;
+    padding : 0;
+    border : none;				
+}
+
+body {
+    background-image: url('../img/nabi_forhead.png');
+    background-position: 10% 0%;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+
+@media screen and (max-width: 1100px) {
+    body {
+        background-position: 40% 0%;
+    }
+}
+
+#body_full{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;	
+    background-color: #000000;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 998;
+    opacity: 0.5;
+    display: none;
+}
+
+#popup_container {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    background: #fff;
+    float: top;
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    cursor: pointer;
+    border-radius: 20px;
+    display: none;
+    z-index: 999;
+}
+#popup_container_txt {
+    font-family: Julius_Sans_One;
+    font-size: 50px;
+}
+
+.navbar-brand {
+    font-family: Julius_Sans_One;
+}
+
+.board {
+    width: 240px;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    border: 2px solid #000;
+    text-align: center;
+    float: left;
+    font-size: 50px;
+    font-family: Montserrat;
+    cursor: pointer;
+}
+
+.teamBack {
+    width: 70px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0 rgba(101, 101, 101, 0.16);
+}
+
+.team_name {
+    font-size: 50px;
+    font-family: Montserrat;
+    color: #000;
+    text-decoration-line: none;
+}
+.team_name:hover {
+    color:#000
+}
+
+.counter {
+    font-size: 30px;
+    font-family: Julius_Sans_One;
+    color: #000;
+    text-decoration-line: none;
+}
+.counter:hover {
+    color:#000
+}
+
+.nextTurn {
+    box-shadow: 5px 5px 20px 0 rgba(101, 101, 101, 0.16);
+    background-color: #fff;
+    border-radius: 20px;
+    width: 200px;
+    margin: 0 0 10px 0;
+
+}
+.nextTurn a {
+    font-size: 50px;
+    font-family: Montserrat;
+}
