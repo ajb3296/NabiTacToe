@@ -1,11 +1,13 @@
 @font-face {
     src : url("../fonts/Montserrat/Montserrat-SemiBold.ttf"); 
-    font-family: Montserrat
+    font-family: Montserrat;
+    font-display: swap;
 }
 
 @font-face {
     src : url("../fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf"); 
-    font-family: Julius_Sans_One
+    font-family: Julius_Sans_One;
+    font-display: swap;
 }
 
 html, body {
