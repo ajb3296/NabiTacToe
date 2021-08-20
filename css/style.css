@@ -18,7 +18,7 @@ html, body {
 
 body {
     background-image: url('../img/nabi_forhead.png');
-    background-position: center top;
+    background-position: calc(50% + 100px) top;
     background-repeat: no-repeat;
     background-size: 1700px;
 }
