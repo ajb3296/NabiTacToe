@@ -20,34 +20,8 @@ body {
     background-image: url('../img/nabi_forhead.png');
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: 1500px;
+    background-size: 1700px;
 }
-/*
-@media screen and (max-width: 1900px) {
-    body {
-        background-position: 110% 0%;
-        background-size: 1500px;
-    }
-}
-@media screen and (max-width: 1600px) {
-    body {
-        background-position: 900% 0%;
-        background-size: 1500px;
-    }
-}
-@media screen and (max-width: 1400px) {
-    body {
-        background-position: 35% 0%;
-        background-size: 1500px;
-    }
-}
-@media screen and (max-width: 1100px) {
-    body {
-        background-position: 30% 0%;
-        background-size: 1500px;
-    }
-}
-*/
 
 #body_full{
     width: 100%;
