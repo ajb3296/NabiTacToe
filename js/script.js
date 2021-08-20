@@ -1,42 +1,12 @@
 nowTeam = "O"
-/*
-window.onload = function(){
-    //반복제거, url
-    document.getElementById("body").style.backgroundRepeat = "no-repeat";
-    //이미지 등록
-    document.getElementById("body").style.backgroundImage = "url('img/nabi_forhead.png')";
-    //이미지 사이즈
-    document.getElementById("body").style.backgroundSize = "1500px";
-
-    document.getElementById("body").style.backgroundPosition = "10% 0%";
-}
-*/
-
 
 function resetBoard() {
-    document.getElementById("a1").innerHTML = "";
-    document.getElementById("a2").innerHTML = "";
-    document.getElementById("a3").innerHTML = "";
-
-    document.getElementById("b1").innerHTML = "";
-    document.getElementById("b2").innerHTML = "";
-    document.getElementById("b3").innerHTML = "";
-
-    document.getElementById("c1").innerHTML = "";
-    document.getElementById("c2").innerHTML = "";
-    document.getElementById("c3").innerHTML = "";
-
-    document.getElementById("a1").style.cursor = "pointer";
-    document.getElementById("a2").style.cursor = "pointer";
-    document.getElementById("a3").style.cursor = "pointer";
-
-    document.getElementById("b1").style.cursor = "pointer";
-    document.getElementById("b2").style.cursor = "pointer";
-    document.getElementById("b3").style.cursor = "pointer";
-
-    document.getElementById("c1").style.cursor = "pointer";
-    document.getElementById("c2").style.cursor = "pointer";
-    document.getElementById("c3").style.cursor = "pointer";
+    for (let line1 of ["a", "b", "c"]) {
+        for (let line2 of ["1", "2", "3"]) {
+            document.getElementById(line1+line2).innerHTML = "";
+            document.getElementById(line1+line2).style.cursor = "pointer";
+        }
+    }
 }
 
 function clickBox(boxid) {
