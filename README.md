@@ -7,6 +7,7 @@
 
 ### Contributors
 모바일 CSS 수정해주신 [VicNabi](https://twitter.com/VicNabi) 님
+나비 이마 확장해주신 big smoke 님
 
 ### ScreenShot
 
