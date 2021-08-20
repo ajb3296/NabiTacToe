@@ -5,6 +5,9 @@
 
 [Montserrat](https://fonts.google.com/specimen/Montserrat?query=Montserrat) 폰트와 [Julius Sans One](https://fonts.google.com/specimen/Julius+Sans+One?query=Julius) 폰트를 사용했습니다.
 
+### Contributors
+모바일 CSS 수정해주신 [VicNabi](https://twitter.com/VicNabi) 님
+
 ### ScreenShot
 
 ![Nabi Tac Toe](screenshot.jpg)
