@@ -18,7 +18,7 @@ html, body {
 
 body {
     background-image: url('../img/nabi_forhead.png');
-    background-position: center top;
+    background-position: calc(50% + 100px) top;
     background-repeat: no-repeat;
     background-size: 1700px;
 }
@@ -119,4 +119,19 @@ body {
 .nextTurn a {
     font-size: 50px;
     font-family: Montserrat;
+}
+
+/* mobile */
+@media screen and (max-width: 800px) {
+    body {
+        background-size: 1350px;
+        background-position: calc(50% + 80px) top;
+    }
+    #popup_container {
+        width: 80%;
+        left: 10%;
+    }
+    #popup_container_txt, .box, .team_name, .counter, .nextTurn a {
+        font-size: 30px;
+    }
 }
