@@ -1,4 +1,6 @@
-nowTeam = "O"
+let nowTeam = "O"
+let fourTieLink = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+tieCount = 0
 
 function resetBoard() {
     for (let line1 of ["a", "b", "c"]) {
@@ -45,7 +47,13 @@ function clickBox(boxid) {
 
         if (winner != "") {
             if (winner === "reset") {
-                document.getElementById("popup_container_txt").innerHTML = "Tie"
+                tieCount = tieCount + 1;
+                if (tieCount == 4) {
+                    window.open(fourTieLink, '_blank').focus();
+                    document.getElementById("popup_container_txt").innerHTML = "Tie X 4"
+                } else {
+                    document.getElementById("popup_container_txt").innerHTML = "Tie"
+                }
                 call_popup();
             } else {
                 if (winner === "O") {
